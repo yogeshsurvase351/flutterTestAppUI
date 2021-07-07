@@ -1,0 +1,35 @@
+name: test_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  carousel_slider: ^4.0.0
+  flutter:
+    sdk: flutter
+
+CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Person.png
+    - assets/background.png
+    - assets/start.png
+    - assets/logo.png
+    - assets/bike.png
+    - assets/sameDay.png
+    - assets/back.png
+    - assets/panIndia.png
+    - assets/bulk.png
+    - assets/track.png
+    - assets/add.png
+  
